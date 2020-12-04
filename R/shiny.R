@@ -56,10 +56,10 @@ ldavis_dependencies <- function() {
 }
 
 html_dependency_d3 <- function() {
-  htmltools::htmlDependency(name = "d3",
+  htmltools::htmlDependency(name = "d3v3",
                             version = "3.2.7",
                             src = system.file("htmljs", package = "LDAvis"),
-                            script = "d3.v3.js")
+                            script = "d3v3.js")
 }
 
 html_dependency_ldavis <- function() {
